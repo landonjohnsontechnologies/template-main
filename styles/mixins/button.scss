@@ -1,0 +1,4 @@
+@mixin button() {
+	@apply border-2 rounded-md px-7 py-3 m-1;
+	transition: ease-in-out 0.15s;
+}

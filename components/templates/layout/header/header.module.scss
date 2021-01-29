@@ -1,0 +1,19 @@
+@import "../../../../styles/mixins/button.scss";
+@import "../../../../styles/mixins/contain.scss";
+@import "../../../../styles/mixins/flex.scss";
+
+.header {
+	@include contain();
+	@include flex();
+	@apply p-1;
+	a {
+		@include button();
+		@apply block text-green-500 border-green-500 font-bold;
+		&:hover,
+		&:focus {
+			@apply text-green-800 border-green-800;
+		}
+	}
+	nav {
+	}
+}

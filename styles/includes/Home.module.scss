@@ -1,0 +1,28 @@
+@import "../mixins/button.scss";
+@import "../mixins/contain.scss";
+@import "../mixins/flex.scss";
+
+.landing {
+	@include flex();
+	@apply p-1;
+	min-height: calc(100vh - 8.5rem);
+	a {
+		@include button();
+	}
+	h1 {
+		@apply text-4xl text-center py-5;
+	}
+	.component {
+        @include contain();
+        @apply max-w-xl;
+		.division {
+			@include flex();
+			&:nth-last-child(1) {
+				@apply justify-around;
+			}
+			img {
+				@apply m-1;
+			}
+		}
+	}
+}
