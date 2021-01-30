@@ -11,3 +11,7 @@ h5,
 h6 {
 	@apply font-bold;
 }
+
+a, button {
+	transition: ease-in-out 0.3s;
+}

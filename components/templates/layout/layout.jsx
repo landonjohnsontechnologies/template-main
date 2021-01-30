@@ -5,7 +5,7 @@ import Footer from "./footer/footer";
 const Layout = ({ children }) => (
 	<html lang="en">
 		<Meta />
-		<body>
+		<body className="bg-lit dark:bg-unlit dark:text-white">
 			<Header />
 			<main>{children}</main>
 			<Footer />
