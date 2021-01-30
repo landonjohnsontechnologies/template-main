@@ -17,7 +17,13 @@ export default function ToggleMode() {
 		<label className={styles.buttonLight}>
 			<input id="test" type="checkbox" onClick={toggleLight} />
 			<span class={styles.slider}>
-				<img src="/img/asset/moon.svg" alt="light mode" />
+				<img
+					src="/img/asset/moon.svg"
+					alt="light mode"
+					unselectable="on"
+					width="20"
+					height="20"
+				/>
 			</span>
 		</label>
 	);
