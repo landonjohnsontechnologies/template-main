@@ -3,14 +3,14 @@ import Header from "./header/header";
 import Footer from "./footer/footer";
 
 const Layout = ({ children }) => (
-	<html lang="en">
+	<>
 		<Meta />
-		<body className="bg-lit dark:bg-unlit dark:text-white">
+		<body className="bg-lit dark:bg-unlit dark:text-lit">
 			<Header />
 			<main>{children}</main>
 			<Footer />
 		</body>
-	</html>
+	</>
 );
 
 export default Layout;

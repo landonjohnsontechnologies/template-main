@@ -13,14 +13,14 @@
 			@apply text-pink-500 border-pink-500;
 			&:hover,
 			&:focus {
-				@apply text-pink-800 border-pink-800;
+				@apply border-pink-400 ring-pink-300 ring-2;
 			}
 		}
 		&.purple {
 			@apply text-purple-500 border-purple-500;
 			&:hover,
 			&:focus {
-				@apply text-purple-800 border-purple-800;
+				@apply border-purple-400 ring-purple-300 ring-2;
 			}
 		}
 	}

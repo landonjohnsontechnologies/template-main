@@ -13,10 +13,9 @@ export default function ToggleMode() {
 	const toggleLight = () => {
 		setTheme(theme === "light" ? "dark" : "light");
 	};
-
 	return (
-		<label className={styles.button}>
-			<input type="checkbox" onClick={toggleLight} />
+		<label className={styles.buttonLight}>
+			<input id="test" type="checkbox" onClick={toggleLight} />
 			<span class={styles.slider}>
 				<img src="/img/asset/moon.svg" alt="light mode" />
 			</span>
